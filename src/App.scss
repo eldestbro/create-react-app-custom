@@ -1,0 +1,14 @@
+@import 'lib/all';
+@import 'sprite';
+
+.App {
+  h2 {
+    color: $main-color;
+  }
+  .react-logo {
+    @include retina-sprite($react-logo-group);
+  }
+  .redux-logo {
+    @include retina-sprite($redux-logo-group);
+  }
+}
