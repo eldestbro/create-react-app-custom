@@ -1,0 +1,14 @@
+// Bootstrap overrides
+
+$popover-bg:                        #555555 !default;
+
+.popover {
+  border-radius: 30px !important;
+  .popover-body {
+    padding:0 15px;
+    height:30px;
+    line-height:28px;
+    color: #ffffff;
+    font-size:14px;
+  }     
+}
